@@ -553,29 +553,57 @@
                 <!-- Project Details Go Here -->
                 <h2 class="text-uppercase">Denoising Autoencoder</h2>
                 <p class="item-intro text-muted">Artifical Neural Network</p>
-                <img class="img-fluid d-block mx-auto" src="img/portfolio/Autoencoder.png" alt="">
-                <p>The Denoising Autoencoder is a artificial neural network, which can receive a corrupted or noised
-                  input and trys to reconstruct the original, uncorrupted data.
-                  This decorruption, or denoising, will be learned by the neural network itself and doesn't require
-                  human interaction.
-                  That kind of Autoencoder can be used to reconstruct for example damaged pictures or videos but can be
-                  easily transformed to other types of Autoencoder to automatically encode and decode data (hence the
-                  name) for more efficient image or video storage.
+                <img class="img-fluid d-block mx-auto" src="img/portfolio/dark-triad-login-screen.png" alt="">
+                <p>
+                  Dark Triad is a currently developed 3D-MORPG (Multiplayer Online Role-Playing Game).
+                  It is heavily inspired by the 2D-MORPG "Realm of the Mad God" and should give a similar gameplay experience.<br />
+                  <br />
+                  The game is developed in the Unity3D engine and greatly relies on the Synthy Studios assets.
+                  Currently it supports different users creating their account via the website using the Auth0 service. 
+                  Inside of the game, they can login with their accout, fetch and/or create their characters which are stored in 
+                  cloud hosted REST services written in C++ using the fast Drogon webframework and ProstgreSQL.
+                  After selecting a character the player will spawn in the starting city and is able to move around in a "Realm of the Mad God"-esque
+                  manner and can also see other players.
+                  The networking is implemented using their new "Netcode for Gameobjects" framework.<br />
+                  <br />
+                  The source code is hosted on Github and at least the REST services are built and tested in the Github Actions pipeline
+                  and automatically deployed to the cloud platform heroku as a Docker container.<br />
+                  <br />
+                  All presented points are functional but also a bit rough around the edges.
+                  Future plans revolve around the Deployment/hosting on Kubenetes with Agones, CI/CD for the Unity build, Combat system, 
+                  Enemies / NPCs, and an internal chat system.<br />
+                  <br />
+                  This project serves as a playground to learn many facets of multiplayer game development.
                 </p>
                 <div class="col-md-4 mx-auto">
                   <ul class="list-inline social-buttons">
                     <li class="list-inline-item">
-                      <a href="https://github.com/wagnrd/Denoising_Autoencoder">
+                      <a href="https://github.com/wagnrd/dark-triad-game-client">
                         <i class="fa fa-github"></i>
+                      </a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a href="https://github.com/wagnrd/dark-triad-services">
+                        <i class="fa fa-github"></i>
+                      </a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a href="https://github.com/wagnrd/dark-triad-web">
+                        <i class="fa fa-github"></i>
+                      </a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a href="https://darktriad.wagnrd.de">
+                        <i class="fa fa-chrome"></i>
                       </a>
                     </li>
                   </ul>
                 </div>
                 <ul class="list-inline">
-                  <li>Date: January 2017</li>
-                  <li>Category: A.I.</li>
-                  <li>Programming Language: Python</li>
-                  <li>Framework: Tensorflow</li>
+                  <li>Date: May 2021</li>
+                  <li>Category: Game development, networking</li>
+                  <li>Programming Language: C++, C#, Typescript</li>
+                  <li>Framework: Unity3D, Drogon</li>
                 </ul>
                 <button class="btn btn-primary" data-dismiss="modal" type="button">
                   <i class="fa fa-times"></i>
