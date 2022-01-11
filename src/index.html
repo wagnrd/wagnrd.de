@@ -251,11 +251,11 @@
                 <i class="fa fa-plus fa-3x"></i>
               </div>
             </div>
-            <img class="img-fluid" src="img/portfolio/SFML Libraries.png" alt="">
+            <img class="img-fluid" src="img/portfolio/PersonalVoiceAssistant thumbnail.png" alt="">
           </a>
           <div class="portfolio-caption">
-            <h4>SFML Libraries</h4>
-            <p class="text-muted">Libraries to enhance usage of SFML</p>
+            <h4>Personal Voice Assistant</h4>
+            <p class="text-muted">Privacy compliant voice assisant</p>
           </div>
         </div>
       </div>
@@ -518,6 +518,11 @@
               </a>
             </li>
             <li class="list-inline-item">
+              <a href="https://www.linkedin.com/in/denis-wagner-bb0297181/">
+                <i class="fa fa-linkedin"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
               <a href="https://www.xing.com/profile/Denis_Wagner28/">
                 <i class="fa fa-xing"></i>
               </a>
@@ -632,7 +637,9 @@
                 <!-- Project Details Go Here -->
                 <h2 class="text-uppercase">Clear Up Robot</h2>
                 <p class="item-intro text-muted">Robot Behaviour that clears up objects</p>
-                <img class="img-fluid d-block mx-auto" src="img/portfolio/Robot.png" alt="">
+                <iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/I6a0CMfgn-Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <br />
+                <br />
                 <p>
                   This behaviour for an AMR (automated mobile robot) will operate in a specific area (known via a map)
                   and perform
@@ -842,38 +849,33 @@
             <div class="col-lg-8 mx-auto">
               <div class="modal-body">
                 <!-- Project Details Go Here -->
-                <h2 class="text-uppercase">SFML Libraries</h2>
-                <p class="item-intro text-muted">Libraries to enhance the usage of SFML</p>
-                <!-- <img class="img-fluid d-block mx-auto" src="img/portfolio/06-full.jpg" alt=""> -->
+                <h2 class="text-uppercase">Personal Voice Assistant</h2>
+                <p class="item-intro text-muted">Privacy compliant personal voice assisant</p>
+                <iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/FC_cBd7mTqg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <br />
+                <br />
                 <p>
-                <h3>SFMLApp</h3>
-                A library which offers fundamental scene/view support as a kind of node system where drawable nodes can
-                contain other
-                drawable nodes and so on. The goal is to ease the use of architechtural patterns for user interfaces
-                like MVP or MVC.
-                <br />
-                <br />
+                  The goal of a voice assisant is to help the user with daily tasks via the vocal communication channel.
+                  But to understand natural language, typically a neural network has to be trained with tremendous amounts of data.
+                  This data is gathered by bigger corporations from their very own customers. 
+                  Even in situations the customers thought were private to them.
+                  This Personal Voice Assistant is trying to challenge this practice by only using conciously donated voice data
+                  to train its neural network. Futher it operates completely offline, so no private voice data will ever be leaked somewhere else.<br />
+                  <br />
+                  Mozilla Common Voice is a project where everybody can donate some spoken language to an open source voice corpus.
+                  This corpus and some custom voice lines were used during this project for speech recognition and together with the 
+                  speech regognition library Mozilla DeepSpeech it is the backbone of the assistant.
+                  Further the assistant operates with an own implementation of a skill system, which was inspired by the Google Assistant.
+                  A skill is basically a conversation topic. If a topic (e.g. as skill) is active, the conversation is treated in this specific context.
+                  So the assisant is able to respond with a certain degree of context in mind.<br />
+                  Technically this project is heavily multithreaded to ensure no interruptions between speech regognition, conversation processing and the actual auditive responding.
+                  <br />
+                  This project was done as my bachelor thesis.
+                </p>
                 <div class="col-md-4 mx-auto">
                   <ul class="list-inline social-buttons">
                     <li class="list-inline-item">
-                      <a href="https://github.com/wagnrd/SFMLApp">
-                        <i class="fa fa-github"></i>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-                <h3>SFMLMath</h3>
-                SFML offers own vector classes to represent positions or other mathematical units. But only a handful of
-                operations are
-                natively implemented for them. This templated library deals with this problem and adds all commonly used
-                vector operations
-                directly in the SFML-namespace to make the use as SFML-like as possible.
-                <br />
-                <br />
-                <div class="col-md-4 mx-auto">
-                  <ul class="list-inline social-buttons">
-                    <li class="list-inline-item">
-                      <a href="https://github.com/wagnrd/SFMLMath">
+                      <a href="https://github.com/wagnrd/PersonalVoiceAssistant">
                         <i class="fa fa-github"></i>
                       </a>
                     </li>
@@ -881,10 +883,10 @@
                 </div>
                 </p>
                 <ul class="list-inline">
-                  <li>Date: February 2019</li>
-                  <li>Category: Computer Graphics</li>
+                  <li>Date: April - August 2019</li>
+                  <li>Category: A.I. / Robotics</li>
                   <li>Programming Language: C++</li>
-                  <li>Framework: SFML</li>
+                  <li>Libraries: Mozilla DeepSpeech, eSpeak, Qt, Aquila</li>
                 </ul>
                 <button class="btn btn-primary" data-dismiss="modal" type="button">
                   <i class="fa fa-times"></i>
