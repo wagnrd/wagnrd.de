@@ -19,5 +19,5 @@ jobs:
         username: ${{ secrets.ftp_username }}
         password: ${{ secrets.ftp_password }}
         local-dir: ./src/
-        server-dir: ./httpdocs/
+        server-dir: ./wagnrd/
         exclude: '.ftpquota, .htaccess, .well-known, cgi-bin'
