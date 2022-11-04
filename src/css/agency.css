@@ -181,7 +181,7 @@ header.masthead {
   text-align: center;
   color: white;
   height: 100vh;
-  background-image: url("../img/header-bg.png");
+  background-image: url("../img/header-bg.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -708,5 +708,3 @@ ul.social-buttons li a {
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
   background-color: #658FE7;
 }
-
-
